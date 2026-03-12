@@ -1,12 +1,4 @@
-// Hamburger Menu Toggle (for mobile)
-const menuBtn = document.querySelector('#menu-btn');
-const navbar = document.querySelector('.navbar');
-
-menuBtn.addEventListener('click', () => {
-    navbar.classList.toggle('active');
-});
-
-// Initialize Swiper
+// Initialize Swiper sliders
 const heroSwiper = new Swiper('.hero-slider', {
     loop:true,
     autoplay:{ delay:2500 },
